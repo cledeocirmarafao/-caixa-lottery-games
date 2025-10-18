@@ -1,10 +1,10 @@
 :root {
   --background: linear-gradient(180deg,rgba(214, 208, 208, 1) 0%, rgba(240, 240, 240, 1) 50%, rgba(245, 240, 240, 1) 100%);
 
-  --azul-principal: hsl(220, 100%, 30%);
-  --azul-claro: hsl(220, 100%, 40%);
-  --texto-cinza: hsl(220, 9%, 46%);
-  --fundo-claro: hsl(220, 14%, 95%);
-  --fundo-bege: hsl(25, 83%, 97%);
-  --preto-titulo: hsl(215, 28%, 17%);
+  --main-blue: hsl(220, 100%, 30%);
+  --reserve-blue: hsl(220, 100%, 40%);
+  --gray-text: hsl(220, 9%, 46%);
+  --light-background: hsl(220, 14%, 95%);
+  --beige-background: hsl(25, 83%, 97%);
+  --main-title: hsl(215, 28%, 17%);
 }
