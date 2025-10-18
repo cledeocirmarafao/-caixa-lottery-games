@@ -1,0 +1,10 @@
+body{
+    background: var(--background) center center no-repeat;
+    height: 100vh;
+}
+
+div{
+    background-color: var(--azul-principal);
+    width: 100px;
+    height: 100px;
+}
