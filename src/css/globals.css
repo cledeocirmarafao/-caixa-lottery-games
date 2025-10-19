@@ -8,6 +8,16 @@ html {
 body {
   background: var(--background) center center no-repeat;
   width: 100vw;
-  max-width: 1365px;
+  max-width: 1350px;
   height: 100vh;
+  background-attachment: fixed;
 }
+
+.card-image{
+    width: clamp(5rem, 10vw, 7rem);
+    height: clamp(5rem, 10vw, 7rem);
+}
+
+/* .quina .card-image{
+    filter: drop-shadow(2px 4px 6px var(--quina));
+} */
