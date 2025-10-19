@@ -1,0 +1,115 @@
+.cards-container {
+  .cards-title {
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+    text-align: center;
+    color: var(--main-title);
+    font-family: var(--primary-font);
+    margin: 4% auto;
+  }
+
+  .all-cards {
+    width: 95%;
+    max-width: 1350px;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+    grid-row-gap: 2rem;
+    margin: 0 auto;
+
+    .cards {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 95%;
+      margin: 0 auto;
+      background-color: var(--beige);
+      border: 0.1rem solid var(--border);
+      
+      border-radius: 1rem;
+      padding: 2rem;
+      box-shadow: 0 4px 6px var(--gray-text);
+
+      &:hover {
+        box-shadow: 0 8px 12px var(--hover-shadow);
+        transform: translateY(-10px);
+        transition: linear 0.3s all;
+      }
+
+      .card-game {
+        display: flex;
+        align-items: center;
+
+        .card-name {
+          font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+          font-weight: 600;
+          color: var(--dark);
+          font-family: var(--secondary-font);
+        }
+      }
+    }
+
+    .card-description {
+      text-align: start;
+      font-size: clamp(1rem, 1vw, 1.5rem);
+      color: var(--gray-text);
+      font-family: var(--secondary-font);
+      padding-left: 1.2rem;
+
+      &.card-description:nth-child(3) {
+        margin-bottom: clamp(1rem, 5vw, 3rem);
+        margin-top: clamp(0.5rem, 1.5vw, 1rem);
+
+        .date{
+            font-weight: 600;
+        }
+      }
+    }
+
+    .card-link {
+      width: 100%;
+      margin-top: auto;
+      font-size: clamp(1rem, 1.5vw, 1.5rem);
+      color: var(--dark);
+      font-weight: 600;
+      font-family: var(--secondary-font);
+      cursor: pointer;
+      border: 0.1rem solid var(--border);
+      text-align: center;
+      padding: clamp(0.8rem, 1.5vw, 1rem);
+      border-radius: 1rem;
+      background-color: var(--light);
+      transform: scaleY(1.1);
+
+      &:hover {
+        background-color: var(--reserve-blue);
+        color: var(--light);
+        transition: cubic-bezier(0.445, 0.05, 0.55, 0.95) 0.3s all ;
+      }
+    }
+  }
+
+  .cards.mega-sena {
+    border-top: inset 1rem var(--mega-sena);
+}
+
+.cards.quina {
+    border-top: inset 1rem var(--quina);
+}
+
+.cards.lotofacil {
+    border-top: inset 1rem var(--lotofacil);
+}
+
+.cards.lotomania {
+    border-top: inset 1rem var(--lotomania);
+}
+
+.cards.dupla-sena {
+    border-top: inset 1rem var(--dupla-sena);
+}
+
+.cards.timemania {
+    border-top: inset 1rem var(--timemania);
+}
+  
+}
