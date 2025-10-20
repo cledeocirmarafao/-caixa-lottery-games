@@ -12,7 +12,6 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    color: var(--main-title);
 
     .navbar-logo {
       font-weight: 900;
@@ -45,6 +44,7 @@
         .navbar-link {
           padding: clamp(0.5rem, 0.5vw, 1rem);
           border-radius: 1rem;
+              color: var(--main-title);
 
           &:hover:not(.active) {
             background-color: var(--light-gray-text);
