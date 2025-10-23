@@ -4,11 +4,13 @@
   --main-blue: hsl(220, 100%, 33%);
   --reserve-blue: hsl(220, 100%, 40%);
   --gray-text: hsl(220, 9%, 46%);
+  --dark-gray-text: hsl(220, 14%, 36%);
   --light-gray-text: hsl(224, 24%, 90%);
   --light: hsl(220, 14%, 95%);
   --beige: hsl(25, 83%, 97%);
   --main-title: hsl(215, 28%, 17%);
   --dark: hsl(215, 16%, 12%); 
+  --very-dark: hsl(210, 18%, 4%);
 
 
   --border: hsla(220, 7%, 84%, 0.557);
