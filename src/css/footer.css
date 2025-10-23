@@ -1,0 +1,98 @@
+.footer {
+  font-family: var(--secondary-font);
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 2.5rem 1rem;
+    /* font-size: 1.4rem; */
+    border-top: 1px solid var(--border);
+
+    .footer-title {
+      font-size: 1.8rem;
+      color: var(--very-dark);
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+
+    .footer-info p,
+    .footer-link-list {
+      font-size: clamp(1.2rem, 2vw, 1.4rem);
+      color: var(--dark-gray-text);
+      line-height: 1.5;
+
+      .footer-link-item {
+        display: block;
+        width: fit-content;
+        margin-bottom: 0.5rem;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: var(--main-blue);
+        }
+      }
+    }
+
+    .footer-social {
+      display: flex;
+      flex-direction: column;
+      font-size: 2rem;
+    }
+
+    .footer-social ul {
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .footer-social ul li a i {
+      color: var(--dark);
+      transition: color 0.3s ease, background-color 0.3s ease;
+      background-color: var(--light-gray-text);
+      width: 4.5rem;
+      height: 4.5rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 0.5rem;
+      
+      &:hover {
+        color: var(--beige);
+        background-color: var(--main-blue);
+        transform: matrix3d(360deg);
+      }
+    }
+  }
+
+  .copyright {
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: clamp(1.5rem, 2vw, 2rem);
+    padding: clamp(1.5rem, 2vh, 2rem);
+    font-size: clamp(1rem, 2vw, 1.4rem);
+    color: var(--gray-text);
+    border-top: 1px solid var(--border);
+
+    a {
+      color: var(--main-blue);
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: var(--reserve-blue);
+      }
+    }
+  }
+
+  .author{
+    font-family: var(--primary-font);
+    color: var(--gray-text);
+    
+    a{
+        color: var(--main-blue);
+    }
+  }
+}
