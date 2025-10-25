@@ -13,14 +13,16 @@ body {
   background-attachment: fixed;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.card-image{
-    width: clamp(5rem, 10vw, 7rem);
-    height: clamp(5rem, 10vw, 7rem);
+.card-image {
+  width: clamp(5rem, 10vw, 7rem);
+  height: clamp(5rem, 10vw, 7rem);
+  border-radius: 1rem;
+  margin: 1rem;
 }
 
 /* .quina .card-image{
