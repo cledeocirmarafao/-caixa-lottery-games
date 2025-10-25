@@ -1,0 +1,29 @@
+.contest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+
+  .image {
+    width: clamp(6rem, 10vw, 8rem);
+    margin: 1rem;
+    border-radius: 50%;
+  }
+
+  .title{
+
+    font-family: var(--primary-font);
+    font-size: clamp(2rem, 8vh, 5rem);
+    font-weight: 800;
+    color: var(--dark);
+  }
+
+  .text{
+    font-family: var(--secondary-font);
+    font-size: clamp(1rem, 3vh, 2.5rem);
+    padding: 1rem 0 2rem 0;
+    color: var(--dark-gray-text);
+    text-align: center;
+  }
+}
