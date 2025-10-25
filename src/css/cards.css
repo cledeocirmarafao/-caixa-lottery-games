@@ -84,6 +84,15 @@
         background-color: var(--reserve-blue);
         color: var(--light);
         transition: cubic-bezier(0.445, 0.05, 0.55, 0.95) 0.3s all ;
+
+        i{
+          transform: translate(5px);
+          transition: 0.5s all;
+        }
+      }
+
+      i{
+       padding-left: 0.5rem;
       }
     }
   }
