@@ -3,6 +3,8 @@
 
   --main-blue: hsl(220, 100%, 33%);
   --reserve-blue: hsl(220, 100%, 40%);
+  --light-blue: hsl(155, 26%, 91%);
+  --border-blue: hsl(173, 31%, 80%);
   --gray-text: hsl(220, 9%, 46%);
   --dark-gray-text: hsl(220, 14%, 36%);
   --light-gray-text: hsl(224, 24%, 90%);
@@ -17,6 +19,7 @@
   --hover-shadow: hsla(220, 54%, 26%, 0.5);
 
   --mega-sena: hsl(146, 78%, 48%);
+  --mega-sena-number: hsl(146, 78%, 32%);
   --quina: hsla(234, 88%, 40%, 0.951);
   --lotofacil: hsl(283, 96%, 62%);
   --lotomania: hsl(38, 100%, 50%);
