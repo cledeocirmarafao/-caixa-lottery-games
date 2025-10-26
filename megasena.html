@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./src/css/variables.css" />
     <link rel="stylesheet" href="./src/css/header.css" />
     <link rel="stylesheet" href="./src/css/pages/megasena/contest.css" />
+    <link rel="stylesheet" href="./src/css/pages/megasena/contest-result.css">
     <link rel="stylesheet" href="./src/css/footer.css" />
     <link rel="stylesheet" href="./src/css/responsive.css" />
 
@@ -59,7 +60,57 @@
       </div>
     </nav>
 
-    
+    <main id="html-profile" class="html-profile">
+      <section class="contest">
+        <img src="./src/assets/images/mega-sena.png" alt="" class="image" />
+
+        <h1 class="title">Mega-Sena</h1>
+
+        <p class="text">
+          Confira os números sorteados e concorra a prêmios milionários
+        </p>
+      </section>
+
+      <section class="contest-result">
+        <div class="contest-setting">
+          <div class="contest-info">
+            <h3 class="prize-draw">Concurso 2654</h3>
+            <p class="calendary">
+              <i class="fa-regular fa-calendar"></i>
+              <time datetime="" id="date-time">24/10/2025</time>
+            </p>
+          </div>
+          <div>
+            <button class="refresh"><i class="fa-solid fa-arrows-rotate"></i> Atualizar</button>
+          </div>
+        </div>
+
+        <div class="result-numbers">
+          <h4 class="draw-numbers">Números Sorteados</h4>
+
+          <ul>
+            <li class="numbers">07</li>
+            <li class="numbers">15</li>
+            <li class="numbers">23</li>
+            <li class="numbers">32</li>
+            <li class="numbers">41</li>
+            <li class="numbers">56</li>
+          </ul>
+        </div>
+
+        <div class="winner-prize">
+          <div class="winners">
+            <span class="decoration"> Ganhadores (6 acertos) </span>
+            <h4 class="result">0</h4>
+          </div>
+
+          <div class="prize">
+            <span class="decoration">Prêmio Acumulado</span>
+            <h4 class="prize-amount">R$ 45.000.000,00</h4>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer class="footer">
       <div class="footer-content">
