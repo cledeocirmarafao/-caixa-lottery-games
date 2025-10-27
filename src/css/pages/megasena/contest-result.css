@@ -24,11 +24,6 @@
         font-size: clamp(1.5rem, 3vw, 2.5rem);
         color: var(--dark);
       }
-
-      .calendary {
-        font-size: clamp(1rem, 3vw, 1.4rem);
-        color: var(--gray-text);
-      }
     }
 
     .refresh {
