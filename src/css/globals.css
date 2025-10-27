@@ -22,6 +22,15 @@ a {
   color: inherit;
 }
 
+ol{
+  list-style-type: none;
+}
+
+.calendary {
+        font-size: clamp(1rem, 3vw, 1.4rem);
+        color: var(--gray-text);
+      }
+
 .card-image {
   width: clamp(5rem, 10vw, 7rem);
   height: clamp(5rem, 10vw, 7rem);
