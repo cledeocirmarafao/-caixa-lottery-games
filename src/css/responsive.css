@@ -1,0 +1,6 @@
+@media (max-width: 786px) {
+  .previous-draw-result {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
