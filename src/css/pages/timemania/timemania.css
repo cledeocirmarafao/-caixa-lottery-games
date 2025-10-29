@@ -1,0 +1,56 @@
+.contest-result.timemania {
+  .result-numbers {
+    .draw-team {
+      font-size: clamp(1rem, 3vw, 1.4rem);
+      text-transform: uppercase;
+      padding: 2rem;
+      color: var(--gray-text);
+    }
+
+    .numbers {
+      background-color: var(--timemania-number);
+    }
+
+    .team {
+      font-size: clamp(1.4rem, 3vw, 2.5rem);
+      text-align: center;
+      font-family: var(--secondary-font);
+      color: var(--main-title);
+      font-weight: 700;
+      margin-bottom: 2rem;
+
+      .team-draw {
+        background-color: var(--light-blue);
+        border: 2px solid var(--border-blue);
+        border-radius: 1.5rem;
+        padding: 1rem;
+      }
+    }
+  }
+
+  .winner-prize {
+    .prize {
+      .prize-amount {
+        color: var(--timemania-number);
+      }
+    }
+  }
+}
+
+.previous-draws.timemania {
+  .previous-draw-result {
+    align-items: center;
+
+    .previous {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+
+  .draw-numbers {
+    .numbers {
+      background-color: var(--timemania-number);
+    }
+  }
+}
