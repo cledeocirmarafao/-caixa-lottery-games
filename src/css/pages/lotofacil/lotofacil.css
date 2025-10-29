@@ -1,0 +1,35 @@
+.result-numbers.lotofacil {
+  ul {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    .numbers {
+      font-size: clamp(1rem, 3vw, 1.6rem);
+      background-color: var(--lotofacil-number);
+    }
+  }
+}
+
+.winner-prize.lotofacil {
+  .prize {
+    .prize-amount {
+      color: var(--lotofacil-number);
+    }
+  }
+}
+
+.previous-draws.lotofacil {
+  .draw-numbers {
+    .row {
+      width: 100%;
+      max-width: 850px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+    }
+    .numbers {
+      background-color: var(--lotofacil-number);
+    }
+  }
+}
