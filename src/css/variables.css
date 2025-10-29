@@ -22,10 +22,15 @@
   --mega-sena: hsl(146, 78%, 48%);
   --mega-sena-number: hsl(146, 78%, 32%);
   --quina: hsla(234, 88%, 40%, 0.951);
+  --quina-number: hsla(234, 89%, 29%, 0.951);
   --lotofacil: hsl(283, 96%, 62%);
+  --lotofacil-number: hsl(283, 76%, 30%);
   --lotomania: hsl(38, 100%, 50%);
+  --lotomania-number: hsl(19, 100%, 53%);
   --timemania: hsl(122, 100%, 50%);
+  --timemania-number: hsl(122, 95%, 30%);
  --dupla-sena: hsl(0, 84%, 43%);
+ --dupla-number: hsl(0, 81%, 33%);
 
   --primary-font: 'Nunito Sans', sans-serif;
   --secondary-font: 'Open Sans', sans-serif;
