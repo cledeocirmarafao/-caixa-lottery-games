@@ -1,0 +1,39 @@
+.result-numbers.lotomania {
+  ul {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    .numbers {
+      font-size: 1rem;
+      background-color: var(--lotomania-number);
+    }
+  }
+}
+
+.winner-prize.lotomania {
+  .prize {
+    .prize-amount {
+      color: var(--lotomania-number);
+    }
+  }
+}
+
+.previous-draws.lotomania {
+    .previous-draw-result{
+        flex-direction: column;
+    }
+  .draw-numbers {
+    .row {
+        padding-top: 2rem;
+      width: 100%;
+      max-width: 1300px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+    }
+    .numbers {
+      background-color: var(--lotomania-number);
+    }
+  }
+}
